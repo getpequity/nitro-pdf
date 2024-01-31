@@ -1,0 +1,1 @@
+module.exports = require('@pequity/eslint-config/prettier.config.js');

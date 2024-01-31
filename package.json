@@ -1,0 +1,21 @@
+{
+  "private": true,
+  "scripts": {
+    "prepare": "nitropack prepare",
+    "dev": "nitropack dev",
+    "build": "nitropack build",
+    "preview": "node .output/server/index.mjs",
+    "lint": "eslint \"**/*.{vue,ts,js}\"",
+    "lint-fix": "eslint --fix \"**/*.{vue,ts,js}\""
+  },
+  "dependencies": {
+    "nitropack": "latest"
+  },
+  "devDependencies": {
+    "@nuxtjs/eslint-config-typescript": "^12.1.0",
+    "@pequity/eslint-config": "^0.0.11",
+    "eslint": "^8.56.0",
+    "prettier": "^3.2.4",
+    "typescript": "^5.3.3"
+  }
+}
