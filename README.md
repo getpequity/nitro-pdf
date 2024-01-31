@@ -7,12 +7,6 @@ Look at the [Nitro documentation](https://nitro.unjs.io/) to learn more.
 Make sure to install the dependencies:
 
 ```bash
-# npm
-npm install
-
-# yarn
-yarn install
-
 # pnpm
 pnpm install
 ```
