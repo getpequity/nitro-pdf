@@ -3,6 +3,7 @@
   "scripts": {
     "prepare": "nitropack prepare",
     "dev": "nitropack dev",
+    "dev:expose": "nitropack dev --host",
     "build": "nitropack build",
     "preview": "node .output/server/index.mjs",
     "lint": "eslint \"**/*.{vue,ts,js}\"",
